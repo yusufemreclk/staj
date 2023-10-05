@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kelime Tahmin Oyunu</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Kelime Tahmin Oyunu</h1>
+      <div class="content">
+        <input type="text" class="type-input" maxlength="1" />
+        <div class="word"></div>
+        <div class="info">
+          <p class="guess">Tahmin: <span></span></p>
+          <p class="wrong">Hata: <span></span></p>
+          <p class="hint">İpucu: <span></span></p>
+        </div>
+        <div class="buttons">
+          <button class="reset">Tekrar</button>
+          <button class="showhint">İpucu Göster</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="words-db.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tablo deneme</title>
+
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1.5em;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      thead tr {
+        background: rgb(39, 116, 160);
+        color: white;
+      }
+      tbody tr {
+        text-align: center;
+      }
+      tbody tr:nth-child(even) {
+        background: #c48dba;
+      }
+      tbody tr:hover {
+        background: #d5e0d7;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>URUN</th>
+          <th>ADET</th>
+          <th>FIYAT</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sandalye</td>
+          <td>25</td>
+          <td>2500TL</td>
+        </tr>
+        <tr>
+          <td>Masa</td>
+          <td>30</td>
+          <td>5000TL</td>
+        </tr>
+        <tr>
+          <td>Koltuk</td>
+          <td>15</td>
+          <td>10000TL</td>
+        </tr>
+        <tr>
+          <td>Dolap</td>
+          <td>20</td>
+          <td>7500TL</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

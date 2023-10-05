@@ -1,0 +1,77 @@
+/* yazi */
+
+.text-center {
+  text-align: center;
+}
+
+.heading-small {
+  font-size: 1.40rem;}
+  
+.heading-medium {
+  font-size: 1.65rem;
+}
+.heading-big {
+  font-size: 1.85rem;
+}
+
+/* renk */
+
+.bg-dark-blue {
+  background: #6c9131;
+}
+.bg-light-blue {
+  background: #d4ab52;
+}
+.bg-light {
+  background: #fff;
+}
+
+/* Buton */
+
+.btn {
+  margin-top: 1.25rem;
+  padding: 0.8rem 3rem;
+  border-radius: 7px;
+  letter-spacing: 0.5px;
+}
+.btn-primary {
+  background: #653692;
+}
+.btn-primary:hover {
+  color: #336ea2;
+  background: #fff;
+  border: 1px solid #336ea2;
+}
+.btn-dark {
+  background: #333;
+}
+.btn-dark:hover {
+  color: #333;
+  background: #fff;
+  border: 0.5px solid #333;
+}
+
+.btn-block {
+  width: 100%;
+  text-align: center;
+}
+/* Form icin */
+
+.form-group {
+  padding: 0.25rem 0;
+}
+.form-group label {
+  display: block;
+}
+.form-control {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  resize: none;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
